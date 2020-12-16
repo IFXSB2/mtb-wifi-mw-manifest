@@ -42,7 +42,7 @@
   <middleware>
     <name>wifi-host-driver</name>
     <id>whd</id>
-    <uri>https://github.com/cypresssemiconductorco/wifi-host-driver</uri>
+    <uri>https://github.com/CYSB2/wifi-host-driver</uri>
     <desc>Wi-Fi Host Driver(WHD) is an independent, embedded Wi-Fi Host Driver that provides a set of APIs to interact with Cypress WLAN chips.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -72,7 +72,7 @@
   <middleware>
     <name>wifi-mw-core</name>
     <id>wifi-mw-core</id>
-    <uri>https://github.com/cypresssemiconductorco/wifi-mw-core</uri>
+    <uri>https://github.com/CYSB2/wifi-mw-core</uri>
     <desc>Core components needed for Wi-Fi connectivity support - bundles FreeRTOS, lwIP TCP/IP stack, mbedTLS for security, Cypress Wi-Fi host driver (WHD), configuration files and associated code to bind these components together. These components are bundled as ".lib" entries; each ".lib" points to the respective repositories, where they are hosted. All but lwIP and mbedTLS libraries are hosted on Cypress' Github repository. lwIP and mbedTLS libraries are hosted on their respective external repositories. Includes predefined configuration files for FreeRTOS, lwIP and mbedTLS for typical embedded IoT usecases; and associated glue layer between lwIP and WHD, and mbedTLS and lwIP.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -117,7 +117,7 @@
   <middleware>
     <name>secure-sockets</name>
     <id>secure-sockets</id>
-    <uri>https://github.com/cypresssemiconductorco/secure-sockets</uri>
+    <uri>https://github.com/CYSB2/secure-sockets</uri>
     <desc>Secure sockets library provides network abstraction APIs for underlying network and security library. Secure sockets library eases application development by exposing a socket like interface for both non-secure (LwIP) and secure (mbedTLS) TCP connections. The APIs are thread safe and enable both client and server mode operations. Secure sockets provide both synchronous and asynchronous APIs for data transfer. Additionally, socket options are supported to configure send/receive timeout, callback for asynchronous mode, TCP keep-alive parameters, certificates/key and TLS extensions. </desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -152,7 +152,7 @@
   <middleware>
     <name>LPA</name>
     <id>lpa</id>
-    <uri>https://github.com/cypresssemiconductorco/lpa</uri>
+    <uri>https://github.com/CYSB2/lpa</uri>
     <desc>LPA is Low power assistant middleware library which provides easy way to configure and use low power features of Cypress devices.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -182,7 +182,7 @@
   <middleware>
     <name>wifi-connection-manager</name>
     <id>wcm</id>
-    <uri>https://github.com/cypresssemiconductorco/wifi-connection-manager</uri>
+    <uri>https://github.com/CYSB2/wifi-connection-manager</uri>
     <desc>Wi-Fi Connection manager (WCM) provides a set of APIs that are useful to establish and monitor Wi-Fi connection on Cypress platforms that support Wi-Fi connectivity. WCM library APIs are easy to use, and the library also provides additional features such Wi-Fi Protected Setup (WPS) and connection monitoring.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -217,7 +217,7 @@
   <middleware>
     <name>http-server</name>
     <id>http-server</id>
-    <uri>https://github.com/cypresssemiconductorco/http-server</uri>
+    <uri>https://github.com/CYSB2/http-server</uri>
     <desc>This repo provides the HTTP Server implementation that can work on the PSoC 6 MCU platforms with Wi-Fi connectivity. It supports RESTful methods such as GET, PUT, and POST for the client to communicate with this HTTP Server library.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -242,7 +242,7 @@
   <middleware>
     <name>MQTT</name>
     <id>mqtt</id>
-    <uri>https://github.com/cypresssemiconductorco/mqtt</uri>
+    <uri>https://github.com/CYSB2/mqtt</uri>
     <desc>This repo contains the MQTT client library that can work with the family of Cypress connectivity chips. This library uses the AWS IoT Device SDK MQTT client library and implements the glue layer that is required for that library to work with Cypress connectivity platforms. Using this library in a project will cause AWS IoT Device SDK to be downloaded on your computer.  It is your responsibility to understand and accept the AWS IoT Device SDK license.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -277,7 +277,7 @@
   <middleware>
     <name>OTA</name>
     <id>ota</id>
-    <uri>https://github.com/cypresssemiconductorco/anycloud-ota</uri>
+    <uri>https://github.com/CYSB2/anycloud-ota</uri>
     <desc>OTA is simple mechanism for updating your device's firmware Over The Air.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
@@ -307,7 +307,7 @@
   <middleware>
     <name>command-console</name>
     <id>command-console</id>
-    <uri>https://github.com/cypresssemiconductorco/command-console</uri>
+    <uri>https://github.com/CYSB2/command-console</uri>
     <desc>This library provides a framework to add command console support to the application (or) product usecases. Wi-Fi iPerf and BLE command support are bundled with this library.</desc>
     <category>WiFi Middleware libraries</category>
     <req_capabilities>psoc6 cyw43xxx wifi</req_capabilities>
